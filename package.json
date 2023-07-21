@@ -1,0 +1,54 @@
+{
+  "name": "vuetify3-confirm",
+  "description": "Extends vuetify3 confirm dialog",
+  "version": "0.0.10",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vuetify3-confirm.umd.cjs",
+  "module": "./dist/vuetify3-confirm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vuetify3-confirm.js",
+      "require": "./dist/vuetify3-confirm.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45",
+    "vuetify": "^3.1.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.1.96",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasonMo/vuetify3-confirm.git"
+  },
+  "author": "beixian",
+  "license": "MIT",
+  "keywords": [
+    "vuetify",
+    "vue",
+    "vuetify 3",
+    "vue 3",
+    "confirm",
+    "dialog"
+  ],
+  "bugs": {
+    "url": "https://github.com/CasonMo/vuetify3-confirm/issues"
+  },
+  "homepage": "https://github.com/CasonMo/vuetify3-confirm#readme",
+  "dependencies": {
+    "vue": "3.2.26"
+  }
+}
