@@ -32,7 +32,7 @@ app.use(confirm,{vuetify})
 
 ```javascript
 import confirm from "vuetify3-confirm"
-app.use(VuetifyConfirm, {
+app.use(confirm, {
   vuetify,
   buttonTrueText: 'Accept',
   buttonFalseText: 'Discard',
