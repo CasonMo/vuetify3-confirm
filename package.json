@@ -1,7 +1,7 @@
 {
   "name": "vuetify3-confirm",
   "description": "Extends vuetify3 confirm dialog",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "files": [
     "dist"
