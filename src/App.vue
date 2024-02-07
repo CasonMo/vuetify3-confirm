@@ -1,10 +1,10 @@
 <script setup>
-import { ref } from 'vue'
-
-this.$confirm('nihao').then(() => {
-console.log("yes")
-}).catch(()=>{
-  console.log("no")
+import {getCurrentInstance, ref} from 'vue'
+const {proxy} = getCurrentInstance()
+proxy.$confirm('hello').then((res) => {
+  console.log(res)
+}).catch(err=>{
+  console.log(err);
 });
 
 let range = ref({ start: null, end: null })
